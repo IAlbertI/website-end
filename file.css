@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info_text{
+    margin-left: 40px;
+}
+
+.info_text{
+    margin-bottom: 10px;
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media(max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-blue{
+    background: #cbe3ff;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 0 20px ;
+}
+
+.list li{
+    margin-bottom: 10px;
+    color: #86898f;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.link_list{
+     list-style: none;
+     padding: 0;
+}
+
+.link_list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc ;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form_group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form_group:last-child{
+    margin-right: 0;
+}
+
+.btn{
+    background: #49607e;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.marks {
+    max-width: 750px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #cbe3ff;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.marks h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hobbi{
+    max-width: 750px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #cbe3ff;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.hobbi h2{
+    text-align: center;
+}
+
+/* #hook{
+    margin-top: 500px;
+} */
+
+.hook{
+    text-align: center;
+    margin: 20px;
+    background-color: #cbe3ff;
+    border-radius: 30px;
+    color: black;
+    
+}
+
+.immmg{
+    width: 100%;
+}

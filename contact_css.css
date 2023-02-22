@@ -1,0 +1,16 @@
+.bot{
+    width: 50px;
+}
+
+.buttons{
+    max-width: 750px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #cbe3ff;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.contact_links{
+    width: 100%;
+}
